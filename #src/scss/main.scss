@@ -1,0 +1,14 @@
+
+.main {
+    margin-top: -180px;
+    &__conteiner {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        margin-top: -130px;
+    }
+}

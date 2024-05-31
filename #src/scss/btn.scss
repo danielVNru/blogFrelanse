@@ -1,0 +1,17 @@
+.btn {
+    color: var(--Brandeis-blue, #06f);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: rgba(0, 102, 255, 0.1);
+    transition: all .2s ease;
+    &:hover {
+        background: var(--Brandeis-blue, #06F);
+        color: #fff;
+    }
+}

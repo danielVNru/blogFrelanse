@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itplug</title>
+    <link rel="stylesheet" href="css/style.min.css?22">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('./html/header.html')
+        @@include('./html/about.html')
+        <main class="main">
+            <div class="main__conteiner">
+                @@include('./html/news.html')
+                @@include('./html/categories.html')
+            </div>
+        </main>
+        @@include('./html/footer.html')
+    </div>
+    @@include('./html/mobile-menu.html')
+
+    <script src="./js/jq.js"></script>
+    <script src="./js/app.min.js"></script>
+</body>
+
+</html>

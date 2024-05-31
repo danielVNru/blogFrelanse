@@ -1,0 +1,33 @@
+@import url('../fonts/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+[class*="__conteiner"]{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #F4F6F6;
+    position: relative;
+    z-index: 5;
+}
+
+@import './nullstyle';
+@import './header';
+@import './about';
+@import './main';
+@import './news';
+@import './btn';
+@import './categories';
+@import './footer';
+@import './burger';
+
+
+
+
